@@ -1,0 +1,65 @@
+.image{
+    height: 400px; 
+    object-fit: cover; 
+    background-color: #f0f0f0;
+}
+.section2{
+    height: 100px;
+    background-color: #23085a;
+}
+.text{
+    color: #ffff;
+}
+.no-margin {
+    margin: 0 !important;
+}
+.h1{
+    font-size: 20px;
+}
+.section3 {
+    background-color: transparent !important;
+}
+.footer {
+    background-color: #2d1b5a;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.footer-logo {
+    width: 100px;  /* Điều chỉnh kích thước */
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%; /* Bo tròn ảnh */
+    margin-bottom: 15px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer ul li a {
+    color: #d9dcff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ccc;
+}
