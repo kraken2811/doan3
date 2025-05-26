@@ -63,3 +63,13 @@
     font-size: 14px;
     color: #ccc;
 }
+.khoahoc{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.course-scroll-container {
+    scroll-behavior: smooth;
+    transition: scroll-left 0.3s ease-out;
+}
