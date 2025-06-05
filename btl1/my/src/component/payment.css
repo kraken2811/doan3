@@ -1,0 +1,30 @@
+.custom-card{
+    width: 200px;
+    height: fit-content;
+    margin-left: 100px;
+    border-radius: 30px;
+}
+.p{
+    margin-left: 30px;
+    font-size: 25px;
+}
+/* payment.css */
+.btn {
+  min-width: 120px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
